@@ -1,0 +1,5 @@
+OpenX32 source commit: 56cc9f46e711c869d3b7e580a5ee5279377b9c97
+OpenMixerControl source commit: 0291d836758b3bc36831dca5014c319c7048e59c
+Base firmware release tag used by default: beta-2026-06-09--5
+DSP1 SHA-256: c2d4efe688bf53a9f90c925a4f6d011159b12e944bd26224bc2205d37d5bf85c
+DSP2 SHA-256: ffccdffeec599c63ba02194f494f53c6edd99ee54fb293a9489c02db19fee6a3
