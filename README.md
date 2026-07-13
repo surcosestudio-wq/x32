@@ -37,3 +37,7 @@ La consola del usuario es aproximadamente de 2017 y probablemente tiene FPGA Xil
 - OpenMixerControl: `0291d836758b3bc36831dca5014c319c7048e59c`
 
 Consulta `metadata/commits.txt` para hashes de los DSP.
+
+## v0.2.1 correction
+
+The repacker now locates the ramdisk uImage dynamically instead of relying on the incorrect hard-coded `0x310000` offset. OpenX32 currently writes it using `bs=512 seek=0x1A00`, which equals `0x340000`. The script also validates and rebuilds uImage CRCs automatically.
