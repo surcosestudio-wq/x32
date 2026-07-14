@@ -1,0 +1,1 @@
+Ejecuta preparar_github.ps1 desde la carpeta principal.
